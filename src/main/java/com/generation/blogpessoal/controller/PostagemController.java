@@ -25,7 +25,7 @@ import com.generation.blogpessoal.repository.TemaRepository;
 import jakarta.validation.Valid;
 @RestController // indica que será repository
 @RequestMapping("/postagens") //terminal
-@CrossOrigin (origins = "", allowedHeaders = "")
+@CrossOrigin (origins = "*", allowedHeaders = "*")
 public class PostagemController {
 
         @Autowired // injeção de independência
